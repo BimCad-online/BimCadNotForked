@@ -1,0 +1,18 @@
+[submodule "Assets/Code/External/Csg"]
+	path = Assets/Code/External/Csg
+	url = https://github.com/NoteCAD/Csg.git
+[submodule "Assets/Code/External/UnityRuntimeInspector"]
+	path = Assets/Code/External/UnityRuntimeInspector
+	url = https://github.com/NoteCAD/UnityRuntimeInspector.git
+[submodule "Assets/Code/External/geometry3Sharp"]
+	path = Assets/Code/External/geometry3Sharp
+	url = https://github.com/NoteCAD/geometry3Sharp.git
+[submodule "Assets/Code/External/gsGCode"]
+	path = Assets/Code/External/gsGCode
+	url = https://github.com/NoteCAD/gsGCode.git
+[submodule "Assets/Code/External/gsSlicer"]
+	path = Assets/Code/External/gsSlicer
+	url = https://github.com/NoteCAD/gsSlicer.git
+[submodule "Assets/Code/External/netDxf"]
+	path = Assets/Code/External/netDxf
+	url = https://github.com/NoteCAD/netDxf.git

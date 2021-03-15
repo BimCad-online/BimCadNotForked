@@ -1,0 +1,1055 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{A3E231F8-216A-7A27-E827-A68096E1D8F2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_4_0;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_MONO_BDWGC;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_WEBGL;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;G3_USING_UNITY;CT_FB;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>WebGL:20</UnityBuildTarget>
+    <UnityVersion>2019.4.0f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>D:\Users\Lenovo\Documents\00000UnityBackup\00000Project Unity 3D\2019.4.0f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:\Users\Lenovo\Documents\00000UnityBackup\00000Project Unity 3D\2019.4.0f1\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Code\Behaviours\ButtonContent.cs" />
+    <Compile Include="Assets\Code\Behaviours\EntityConfig.cs" />
+    <Compile Include="Assets\Code\Behaviours\LineCanvas.cs" />
+    <Compile Include="Assets\Code\Constraints\AngleConstraint.cs" />
+    <Compile Include="Assets\Code\Constraints\CirclesDistance.cs" />
+    <Compile Include="Assets\Code\Constraints\Constraint.cs" />
+    <Compile Include="Assets\Code\Constraints\ConstraintExp.cs" />
+    <Compile Include="Assets\Code\Constraints\Diameter.cs" />
+    <Compile Include="Assets\Code\Constraints\Equal.cs" />
+    <Compile Include="Assets\Code\Constraints\EqualValue.cs" />
+    <Compile Include="Assets\Code\Constraints\HVConstraint.cs" />
+    <Compile Include="Assets\Code\Constraints\Length.cs" />
+    <Compile Include="Assets\Code\Constraints\LineCircleDistance.cs" />
+    <Compile Include="Assets\Code\Constraints\Parallel.cs" />
+    <Compile Include="Assets\Code\Constraints\Perpendicular.cs" />
+    <Compile Include="Assets\Code\Constraints\PointCircleDistance.cs" />
+    <Compile Include="Assets\Code\Constraints\PointLineDistance.cs" />
+    <Compile Include="Assets\Code\Constraints\PointOn.cs" />
+    <Compile Include="Assets\Code\Constraints\PointsCoincident.cs" />
+    <Compile Include="Assets\Code\Constraints\PointsDistance.cs" />
+    <Compile Include="Assets\Code\Constraints\Tangent.cs" />
+    <Compile Include="Assets\Code\DetailEditor\DetailEditor.cs" />
+    <Compile Include="Assets\Code\DetailEditor\FeatureUI.cs" />
+    <Compile Include="Assets\Code\DetailEditor\OptionsUI.cs" />
+    <Compile Include="Assets\Code\DetailEditor\UndoRedo.cs" />
+    <Compile Include="Assets\Code\DraftStroke\DraftStroke.cs" />
+    <Compile Include="Assets\Code\Entities\ArcEntity.cs" />
+    <Compile Include="Assets\Code\Entities\CircleEntity.cs" />
+    <Compile Include="Assets\Code\Entities\EllipseEntity.cs" />
+    <Compile Include="Assets\Code\Entities\EllipticArcEntity.cs" />
+    <Compile Include="Assets\Code\Entities\Entity.cs" />
+    <Compile Include="Assets\Code\Entities\FunctionEntity.cs" />
+    <Compile Include="Assets\Code\Entities\LineEntity.cs" />
+    <Compile Include="Assets\Code\Entities\PointEntity.cs" />
+    <Compile Include="Assets\Code\Entities\SplineEntity.cs" />
+    <Compile Include="Assets\Code\External\Csg\Formats.cs" />
+    <Compile Include="Assets\Code\External\Csg\Octree.cs" />
+    <Compile Include="Assets\Code\External\Csg\Polygon.cs" />
+    <Compile Include="Assets\Code\External\Csg\Solid.cs" />
+    <Compile Include="Assets\Code\External\Csg\Solids.cs" />
+    <Compile Include="Assets\Code\External\Csg\Tree.cs" />
+    <Compile Include="Assets\Code\External\Csg\Vector.cs" />
+    <Compile Include="Assets\Code\External\FileBrowser\Scripts\FileBrowser.cs" />
+    <Compile Include="Assets\Code\External\FileBrowser\Scripts\Wrapper\FileBrowserBase.cs" />
+    <Compile Include="Assets\Code\External\FileBrowser\Scripts\Wrapper\FileBrowserEditor.cs" />
+    <Compile Include="Assets\Code\External\FileBrowser\Scripts\Wrapper\FileBrowserGeneric.cs" />
+    <Compile Include="Assets\Code\External\FileBrowser\Scripts\Wrapper\FileBrowserLinux.cs" />
+    <Compile Include="Assets\Code\External\FileBrowser\Scripts\Wrapper\FileBrowserMac.cs" />
+    <Compile Include="Assets\Code\External\FileBrowser\Scripts\Wrapper\FileBrowserWindows.cs" />
+    <Compile Include="Assets\Code\External\FileBrowser\Scripts\Wrapper\IFileBrowser.cs" />
+    <Compile Include="Assets\Code\External\netDxf\AciColor.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Blocks\Block.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Blocks\BlockAttributeDefinitionChangeEventArgs.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Blocks\BlockEntityChangeEventArgs.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Blocks\BlockRecord.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Blocks\BlockTypeFlags.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Blocks\EndBlock.cs" />
+    <Compile Include="Assets\Code\External\netDxf\BoundingRectangle.cs" />
+    <Compile Include="Assets\Code\External\netDxf\ClippingBoundary.cs" />
+    <Compile Include="Assets\Code\External\netDxf\ClippingBoundaryType.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\ApplicationRegistries.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\AttributeCollection.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\AttributeDefinitionDictionary.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\AttributeDefinitionDictionaryEventArgs.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\BlockRecords.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\DimensionStyleOverrideDictionary.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\DimensionStyleOverrideDictionaryEventArgs.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\DimensionStyles.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\EntityCollection.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\EntityCollectionEventArgs.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\Groups.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\ImageDefinitions.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\Layers.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\Layouts.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\Linetypes.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\MLineStyles.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\ObservableCollection.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\ObservableCollectionEventArgs.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\ObservableDictionary.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\ObservableDictionaryEventArgs.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\ShapeStyles.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\SupportFolders.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\TableObjects.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\TextStyles.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\UCSs.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\UnderlayDgnDefinitions.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\UnderlayDwfDefinitions.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\UnderlayPdfDefinitions.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\VPorts.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\Views.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Collections\XDataDictionary.cs" />
+    <Compile Include="Assets\Code\External\netDxf\CoordinateSystem.cs" />
+    <Compile Include="Assets\Code\External\netDxf\DxfDocument.cs" />
+    <Compile Include="Assets\Code\External\netDxf\DxfObject.cs" />
+    <Compile Include="Assets\Code\External\netDxf\DxfObjectCode.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\AlignedDimension.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Angular2LineDimension.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Angular3PointDimension.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Arc.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Attribute.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\AttributeChangeEventArgs.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\AttributeDefinition.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\AttributeFlags.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Circle.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\DatumReferenceValue.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\DiametricDimension.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Dimension.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\DimensionArrowhead.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\DimensionBlock.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\DimensionType.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\DimensionTypeFlags.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Ellipse.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\EndSequence.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\EntityObject.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\EntityType.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Face3d.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Face3dEdgeFlags.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Hatch.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\HatchBoundaryPath.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\HatchBoundaryPathTypeFlags.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\HatchFillType.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\HatchGradientPattern.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\HatchGradientPatternType.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\HatchPattern.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\HatchPatternLineDefinition.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\HatchStyle.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\HatchType.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Image.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\ImageDisplayFlags.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Insert.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Leader.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\LeaderPathType.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Line.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\LinearDimension.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\LwPolyline.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\LwPolylineVertex.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\MLine.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\MLineFlags.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\MLineJustification.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\MLineVertex.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\MText.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\MTextAttachmentPoint.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\MTextDrawingDirection.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\MTextFormattingOptions.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\MTextLineSpacingStyle.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Mesh.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\MeshEdge.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\OrdinateDimension.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\OrdinateDimensionAxis.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Point.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\PolyfaceMesh.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\PolyfaceMeshFace.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\PolyfaceMeshVertex.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Polyline.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\PolylineSmoothType.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\PolylineTypeFlags.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\PolylineVertex.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\RadialDimension.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Ray.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Shape.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Solid.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Spline.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\SplineCreationMethod.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\SplineKnotParameterization.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\SplineTypeFlags.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\SplineVertex.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Text.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\TextAligment.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Tolerance.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\ToleranceEntry.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\ToleranceGeometricSymbol.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\ToleranceMaterialCondition.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\ToleranceValue.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Trace.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Underlay.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\UnderlayDisplayFlags.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Vertex.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\VertexTypeFlags.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Viewport.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\ViewportStatusFlags.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\Wipeout.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Entities\XLine.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Header\AttMode.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Header\DxfVersion.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Header\HeaderVariable.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Header\HeaderVariableCode.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Header\HeaderVariables.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Header\PointShape.cs" />
+    <Compile Include="Assets\Code\External\netDxf\IHasXData.cs" />
+    <Compile Include="Assets\Code\External\netDxf\IO\BinaryCodeValueReader.cs" />
+    <Compile Include="Assets\Code\External\netDxf\IO\BinaryCodeValueWriter.cs" />
+    <Compile Include="Assets\Code\External\netDxf\IO\DxfReader.cs" />
+    <Compile Include="Assets\Code\External\netDxf\IO\DxfVersionNotSupportedException.cs" />
+    <Compile Include="Assets\Code\External\netDxf\IO\DxfWriter.cs" />
+    <Compile Include="Assets\Code\External\netDxf\IO\EncodingType.cs" />
+    <Compile Include="Assets\Code\External\netDxf\IO\ICodeValueReader.cs" />
+    <Compile Include="Assets\Code\External\netDxf\IO\ICodeValueWriter.cs" />
+    <Compile Include="Assets\Code\External\netDxf\IO\TextCodeValueReader.cs" />
+    <Compile Include="Assets\Code\External\netDxf\IO\TextCodeValueWriter.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Lineweight.cs" />
+    <Compile Include="Assets\Code\External\netDxf\MathHelper.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Matrix3.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\DictionaryCloningFlags.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\DictionaryObject.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\Group.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\GroupEntityChangeEventArgs.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\ImageDefinition.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\ImageDefinitionReactor.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\ImageDisplayQuality.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\Layout.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\MLineStyle.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\MLineStyleElement.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\MLineStyleElementChangeEventArgs.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\MLineStyleFlags.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\PaperMargin.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\PlotFlags.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\PlotPaperUnits.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\PlotRotation.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\PlotSettings.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\PlotType.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\RasterVariables.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\ShadePlotMode.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\ShadePlotResolutionMode.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\SupportedImageFormats.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\UnderlayDefinition.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\UnderlayDgnDefinition.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\UnderlayDwfDefinition.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\UnderlayPdfDefinition.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Objects\UnderlayType.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\Code\External\netDxf\StringEnum.cs" />
+    <Compile Include="Assets\Code\External\netDxf\SubclassMarker.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Symbols.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\ApplicationRegistry.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\DimensionStyle.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\DimensionStyleAlternateUnits.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\DimensionStyleFitOptions.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\DimensionStyleFitTextMove.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\DimensionStyleOverride.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\DimensionStyleOverrideChangeEventArgs.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\DimensionStyleOverrideType.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\DimensionStyleTextDirection.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\DimensionStyleTextHorizontalPlacement.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\DimensionStyleTextVerticalPlacement.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\DimensionStyleTolerances.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\DimensionStyleTolerancesDisplayMethod.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\DimensionStyleTolerancesVerticalPlacement.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\FontStyle.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\Layer.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\LayerFlags.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\Linetype.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\LinetypeSegment.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\LinetypeSegmentChangeEventArgs.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\LinetypeSegmentRotationType.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\LinetypeSegmentType.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\LinetypeShapeSegment.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\LinetypeSimpleSegment.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\LinetypeTextSegment.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\ShapeStyle.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\TableObject.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\TableObjectChangedEventArgs.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\TextStyle.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\UCS.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\VPort.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\View.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Tables\ViewMode.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Transparency.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Units\AngleDirection.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Units\AngleUnitFormat.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Units\AngleUnitType.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Units\DrawingTime.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Units\DrawingUnits.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Units\FractionFormatType.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Units\ImageResolutionUnits.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Units\ImageUnits.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Units\LinearUnitFormat.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Units\LinearUnitType.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Units\UnitHelper.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Units\UnitStyleFormat.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Vector2.cs" />
+    <Compile Include="Assets\Code\External\netDxf\Vector3.cs" />
+    <Compile Include="Assets\Code\External\netDxf\XData.cs" />
+    <Compile Include="Assets\Code\External\netDxf\XDataCode.cs" />
+    <Compile Include="Assets\Code\External\netDxf\XDataRecord.cs" />
+    <Compile Include="Assets\Code\External\pb_Stl\pb_Stl.cs" />
+    <Compile Include="Assets\Code\External\pb_Stl\pb_Stl_Exporter.cs" />
+    <Compile Include="Assets\Code\External\pb_Stl\pb_Stl_Importer.cs" />
+    <Compile Include="Assets\Code\Features\Detail.cs" />
+    <Compile Include="Assets\Code\Features\ExtrusionFeature.cs" />
+    <Compile Include="Assets\Code\Features\Feature.cs" />
+    <Compile Include="Assets\Code\Features\LinearArrayFeature.cs" />
+    <Compile Include="Assets\Code\Features\MeshImportFeature.cs" />
+    <Compile Include="Assets\Code\Features\RevolveFeature.cs" />
+    <Compile Include="Assets\Code\Features\SketchFeature.cs" />
+    <Compile Include="Assets\Code\Features\SketchFeatureBase.cs" />
+    <Compile Include="Assets\Code\Features\SliceFeature.cs" />
+    <Compile Include="Assets\Code\Geometry\BBox.cs" />
+    <Compile Include="Assets\Code\Geometry\GeomUtils.cs" />
+    <Compile Include="Assets\Code\Geometry\MeshUtils.cs" />
+    <Compile Include="Assets\Code\Geometry\STLExport.cs" />
+    <Compile Include="Assets\Code\Geometry\Triangulation.cs" />
+    <Compile Include="Assets\Code\Sketch\IdPath.cs" />
+    <Compile Include="Assets\Code\Sketch\Sketch.cs" />
+    <Compile Include="Assets\Code\Sketch\SketchObject.cs" />
+    <Compile Include="Assets\Code\Solver\EquationSystem.cs" />
+    <Compile Include="Assets\Code\Solver\ExpBasis.cs" />
+    <Compile Include="Assets\Code\Solver\ExpVector.cs" />
+    <Compile Include="Assets\Code\Solver\Expression.cs" />
+    <Compile Include="Assets\Code\Solver\GaussianMethod.cs" />
+    <Compile Include="Assets\Code\Tools\AngleTool.cs" />
+    <Compile Include="Assets\Code\Tools\ArcTool.cs" />
+    <Compile Include="Assets\Code\Tools\CircleTool.cs" />
+    <Compile Include="Assets\Code\Tools\CopyTool.cs" />
+    <Compile Include="Assets\Code\Tools\DistanceTool.cs" />
+    <Compile Include="Assets\Code\Tools\EllipseTool.cs" />
+    <Compile Include="Assets\Code\Tools\EqualTool.cs" />
+    <Compile Include="Assets\Code\Tools\ExportCurrentSTLTool.cs" />
+    <Compile Include="Assets\Code\Tools\ExportSTLTool.cs" />
+    <Compile Include="Assets\Code\Tools\ExtrusionTool.cs" />
+    <Compile Include="Assets\Code\Tools\FullscreenTool.cs" />
+    <Compile Include="Assets\Code\Tools\FunctionTool.cs" />
+    <Compile Include="Assets\Code\Tools\HVTool.cs" />
+    <Compile Include="Assets\Code\Tools\HelpTool.cs" />
+    <Compile Include="Assets\Code\Tools\ImportDXFTool.cs" />
+    <Compile Include="Assets\Code\Tools\ImportSTLTool.cs" />
+    <Compile Include="Assets\Code\Tools\LengthTool.cs" />
+    <Compile Include="Assets\Code\Tools\LineTool.cs" />
+    <Compile Include="Assets\Code\Tools\LinearArrayTool.cs" />
+    <Compile Include="Assets\Code\Tools\LoadTool.cs" />
+    <Compile Include="Assets\Code\Tools\MidPointTool.cs" />
+    <Compile Include="Assets\Code\Tools\MoveTool.cs" />
+    <Compile Include="Assets\Code\Tools\NewTool.cs" />
+    <Compile Include="Assets\Code\Tools\ObjectsListTool.cs" />
+    <Compile Include="Assets\Code\Tools\ParallelTool.cs" />
+    <Compile Include="Assets\Code\Tools\PasteTool.cs" />
+    <Compile Include="Assets\Code\Tools\PerpendicularTool.cs" />
+    <Compile Include="Assets\Code\Tools\PointTool.cs" />
+    <Compile Include="Assets\Code\Tools\PointsCoincidentTool.cs" />
+    <Compile Include="Assets\Code\Tools\RedoTool.cs" />
+    <Compile Include="Assets\Code\Tools\RemoveTool.cs" />
+    <Compile Include="Assets\Code\Tools\RevolveTool.cs" />
+    <Compile Include="Assets\Code\Tools\SaveGCodeTool.cs" />
+    <Compile Include="Assets\Code\Tools\SaveTool.cs" />
+    <Compile Include="Assets\Code\Tools\SketchTool.cs" />
+    <Compile Include="Assets\Code\Tools\SliceTool.cs" />
+    <Compile Include="Assets\Code\Tools\SplineTool.cs" />
+    <Compile Include="Assets\Code\Tools\SplitTool.cs" />
+    <Compile Include="Assets\Code\Tools\TangentTool.cs" />
+    <Compile Include="Assets\Code\Tools\Tool.cs" />
+    <Compile Include="Assets\Code\Tools\ToolBar.cs" />
+    <Compile Include="Assets\Code\Tools\UndoTool.cs" />
+    <Compile Include="Assets\Code\Utils\CameraController.cs" />
+    <Compile Include="Assets\Code\Utils\ExpParser.cs" />
+    <Compile Include="Assets\Code\Utils\FullMesh.cs" />
+    <Compile Include="Assets\Code\Utils\NoteCADJS.cs" />
+    <Compile Include="Assets\Code\Utils\SystemExt.cs" />
+    <Compile Include="Assets\Code\Utils\UnityExt.cs" />
+    <Compile Include="Assets\NewFolder\Scripts\ButtonelectorGroup.cs" />
+    <Compile Include="Assets\NewFolder\Scripts\CameraRotator.cs" />
+    <Compile Include="Assets\NewFolder\Scripts\CloseText.cs" />
+    <Compile Include="Assets\NewFolder\Scripts\GizmoPainter.cs" />
+    <Compile Include="Assets\NewFolder\Scripts\LineDrawer.cs" />
+    <Compile Include="Assets\NewFolder\Scripts\PanelGroup.cs" />
+    <None Include="Assets\Code\External\FileBrowser\README.txt" />
+    <None Include="Assets\Code\DraftStroke\DraftLinesDepthOff.shader" />
+    <None Include="Assets\Code\DraftStroke\DraftLines.shader" />
+    <None Include="Assets\Materials\LoopShader.shader" />
+    <None Include="Assets\Shaders\SliderRamp.shader" />
+    <None Include="Assets\TestFiles\sketch_00.xml" />
+    <None Include="Assets\Shaders\SliderRampTransparent.shader" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WebGLModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WebGLModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Ookii.Dialogs">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/CAD_newUI/Assets/Code/External/FileBrowser/Native/Windows/Ookii.Dialogs.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/CAD_newUI/Assets/Code/External/FileBrowser/Native/Windows/System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/CAD_newUI/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/CAD_newUI/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/CAD_newUI/Library/PackageCache/com.unity.analytics@3.5.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/00000Project Unity 3D/2019.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/CAD_newUI/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/CAD_newUI/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/CAD_newUI/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/CAD_newUI/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/CAD_newUI/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/CAD_newUI/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Analytics">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/CAD_newUI/Library/ScriptAssemblies/Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/CAD_newUI/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/CAD_newUI/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/CAD_newUI/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/CAD_newUI/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/CAD_newUI/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/CAD_newUI/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/CAD_newUI/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>D:/Users/Lenovo/Documents/00000UnityBackup/CAD_newUI/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{D5FA69CB-535F-F4CF-1658-687A93A84846}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="geometry3Sharp.csproj">
+      <Project>{5684FE24-B5E3-EE1F-A7C2-38E3724C27DF}</Project>
+      <Name>geometry3Sharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="gsGCode.csproj">
+      <Project>{4B0477DF-C07A-D6E2-DB91-A017C0E131DD}</Project>
+      <Name>gsGCode</Name>
+    </ProjectReference>
+    <ProjectReference Include="gsSlicer.csproj">
+      <Project>{44037DD1-C124-BF04-06F3-C62870B0426D}</Project>
+      <Name>gsSlicer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
